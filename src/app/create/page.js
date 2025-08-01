@@ -44,7 +44,7 @@ export default function CreateStoryPage() {
     };
     getSession();
     
-  }, []);
+  }, [router]);
 
 
   // Initialize audioRefs
@@ -95,7 +95,7 @@ export default function CreateStoryPage() {
     };
     
     fetchData();
-  }, []);
+  }, [router]);
 
   // Update audio state properly
   let updateAudioTimeout;

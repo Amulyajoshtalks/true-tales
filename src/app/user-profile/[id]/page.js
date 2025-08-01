@@ -205,7 +205,7 @@ export default function UserProfile() {
       <div className="min-h-screen bg-white flex items-center justify-center">
         <div className="text-center">
           <h1 className="text-2xl font-bold text-gray-800 mb-4">Profile Not Found</h1>
-          <p className="text-gray-600 mb-6">The user profile you're looking for doesn't exist.</p>
+          <p className="text-gray-600 mb-6">The user profile you&apos;re looking for doesn&apos;t exist.</p>
           <button 
             onClick={() => router.push('/')}
             className="px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg text-white font-medium transition-all"

@@ -106,7 +106,7 @@ const router=useRouter()
     };
     
     fetchDashboardData();
-  }, []);
+  }, [router]);
 
   // Format currency
   const formatCurrency = (amount) => {
@@ -474,7 +474,7 @@ const OverviewTab = ({
         <div className="mb-4 md:mb-0">
           <h2 className="text-2xl font-bold mb-2">Your Content is Monetized!</h2>
           <p className="max-w-lg">
-            You're earning money from day one. Your episodes are generating revenue 
+            You&apos;re earning money from day one. Your episodes are generating revenue 
             through ads and premium subscriptions. Keep creating great content!
           </p>
         </div>

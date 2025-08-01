@@ -51,7 +51,7 @@ export default function ForgotPasswordPage() {
                 Password Reset Sent
               </h2>
               <p className="text-gray-600 mb-6">
-                We've sent a password reset link to{" "}
+                We&apos;ve sent a password reset link to{" "}
                 <span className="font-medium">{email}</span>. Please check your
                 inbox.
               </p>
